@@ -15,7 +15,8 @@ namespace LayoutsDemo
                 new GridLayoutPage(),
                 new RelativeLayoutPage(),
                 new ScrollLayoutPage(),
-                new AbsoluteLayoutPage()
+                new AbsoluteLayoutPage(),
+				new HybridLayoutWithChildView()
             };
 
             listPages.ItemsSource = listOfPages;
